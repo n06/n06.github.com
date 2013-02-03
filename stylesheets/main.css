@@ -1,3 +1,11 @@
 .centeredHead{
     text-align: center;
 }
+.sectionHead{
+    text-align: left;
+    font-style: bold;
+}
+.description{
+    text-align: left;
+    font-style: italic;
+}
