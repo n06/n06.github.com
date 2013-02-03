@@ -1,10 +1,20 @@
-.centeredHead{
+body{
+    background-image: url('../assets/pw_maze_white.png');
+}
+#banner{
+    width: 100%;
+}
+
+h1, h2{
     text-align: center;
 }
-.sectionHead{
-    text-align: left;
-    font-style: bold;
+.centeredHead{
+    font-style: italic;
+    font-size: large;
 }
-.description{
+.authorTag{
+    font-size: medium;
     font-style: italic;
 }
+
+
