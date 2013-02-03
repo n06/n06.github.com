@@ -1,8 +1,28 @@
 body{
     background-image: url('../assets/pw_maze_white.png');
+    color: #36393D;
 }
 #banner{
     width: 100%;
+}
+
+a:visited{
+    color: #4096EE;
+}
+
+a:link{
+    color: #4096EE;
+}
+
+#nav{
+    text-align: center;
+}
+
+.tab{
+    font-family: sans-serif;
+    font-size: small;
+    padding: 10em;
+    text-decoration: none;
 }
 
 h1, h2{
@@ -16,5 +36,4 @@ h1, h2{
     font-size: medium;
     font-style: italic;
 }
-
 
