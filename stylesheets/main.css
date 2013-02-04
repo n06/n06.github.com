@@ -45,3 +45,8 @@ h1, h2{
     font-size: x-large;
     font-style: italic;
 }
+.bio{
+    text-align: justify;
+    padding-left: 5em;
+    padding-right: 5em;
+}
