@@ -40,3 +40,8 @@ h1, h2{
     float: right;
     width: 20%;
 }
+.placeholder{
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+}
