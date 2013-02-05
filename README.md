@@ -1,5 +1,14 @@
 n06.github.com
 ==============
+Approximate Work Time: 8 Hours.
+
+Implemented:
+1) Index.html, Resume.html, and Bio.html
+2) 2 CSS files both of which have more than 5 stylings.
+3) Passed html validation
+4) Passed CSS validation
+
+
 This website is a project for Comp20 at Tufts University 
 (Created Spring 2013)
 It will be my personal webpage which will display my resume, bio, and projects. So far it is still a a work in progress.
