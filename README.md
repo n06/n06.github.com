@@ -23,3 +23,8 @@ More to come:
 2) More frontpage content!!
 3) APIs? (google fonts, github, youtube, etc)
 4) May add a blog.
+
+
+Personal Preference Updates:
+1) Now using Coda 2
+2) Setup git management from within Coda
