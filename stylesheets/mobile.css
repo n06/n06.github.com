@@ -15,16 +15,22 @@ a:link{
 }
 
 #nav{
-    text-align: center;
+    display: none;
 }
 
 .tab{
-    font-family: sans-serif;
-    font-size: 15px;
-    padding: 10em;
-    text-decoration: none;
+    display: none;
 }
 
+#navMobile{
+    text-align: justify;
+}
+
+.tabMobile{
+    font-family: sans-serif;
+    font-size: small;
+    padding: 5em;
+    text-decoration: none;
 }
 
 h1, h2{
@@ -52,3 +58,4 @@ h1, h2{
     padding-left: 5em;
     padding-right: 5em;
 }
+
