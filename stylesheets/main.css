@@ -32,6 +32,7 @@ h1, h2{
 .centeredHead{
     font-style: italic;
     font-size: large;
+    padding-top: 20px;
 }
 .authorTag{
     font-size: medium;
