@@ -1,6 +1,7 @@
 body{
     background-image: url('../assets/pw_maze_white.png');
     color: #36393D;
+    padding-top: 40px;
 }
 #banner{
     width: 100%;
