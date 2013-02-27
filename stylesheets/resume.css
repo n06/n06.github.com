@@ -16,6 +16,7 @@ h3{
     font-style: italic;
     margin-top: 0px;
     padding-top: 0px;
+    margin-bottom: 20px;
 }
 
 a:visited{
@@ -35,8 +36,4 @@ a:link{
     font-size: 15px;
     padding: 10em;
     text-decoration: none;
-}
-
-.nopad{
-	margin-bottom: 0px;
 }
