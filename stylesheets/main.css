@@ -3,8 +3,12 @@ body{
     color: #36393D;
     padding-top: 40px;
 }
-#banner{
+.banner{
     width: 100%;
+}
+
+.slide {
+	height: 50em;
 }
 
 a:visited{
@@ -55,4 +59,7 @@ h1, h2{
 
 hr{
 	background-image: url('../assets/pw_maze_white.png');
+}
+#bioImg {
+	text-align: center;
 }
