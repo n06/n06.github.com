@@ -92,7 +92,7 @@ large amounts of elements, which can lead to a crash of the server.</li>
 <li>Description: An attacker can inject a script into the site which will  then be stored and therefore will become
 persistent.</li>
 <li>Resolution: If the application rejected any database entries with script tags of any encoding (via Regex), 
-the attack vector would be closed. This can </li>
+the attack vector would be closed. Another method to resolve this attack would be through sanitization, which would allow the code through, but would not let it execute.</li>
 </ul>
 
 <li><h2>Reflected Cross-Site Scripting</h2></li>
