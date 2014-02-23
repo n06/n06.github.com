@@ -151,6 +151,7 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
+<<<<<<< HEAD
 
 @media (min-width: 992px) {
   .masthead,
@@ -159,3 +160,9 @@ body {
     width: 700px;
   }
 }
+=======
+.center{
+	
+	text-align: center;
+}
+>>>>>>> 1b62045e12032e075544dc8da5cde8b7c5b7bad6
