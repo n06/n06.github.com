@@ -2,107 +2,77 @@
 
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Nick's Homepage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
-    <link href="stylesheets/bootstrap-responsive.css" rel="stylesheet" type="text/css">
-</head>
+    <title>Cover Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
 <body>
-	
-	<div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                
-                </a> <a class="brand" href="#">Nick's Homepage</a>
+    <div class="site-wrapper">
 
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
+      <div class="site-wrapper-inner">
 
-                        <li><a href="bio.html"><i class="icon-info-sign"></i> Bio</a></li>
+        <div class="cover-container">
 
-                        <li><a href="resume.html"><i class="icon-briefcase"></i> Resume</a></li>
-
+          <div class="masthead clearfix">
+            <div class="inner">
+                <h3 class="masthead-brand">Ndav.is</h3>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="bio.html">About</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Senior Capstone Project</a></li>
+                        <li><a href="#">Facial Recognition using UAV Platforms</a></li>
                     </ul>
+                    </li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/n06">Portfolio</a></li>
+                </ul>
+            </div>
+          </div>
 
-                    <a class="btn btn-primary pull-right" href="https://github.com/n06" target="_blank">Nick's Github</a>
-                </div><!-- /.nav-collapse -->
-            </div><!-- /.container -->
-        </div><!-- /.navbar-inner -->
-    </div><!-- /.navbar -->
+          <div class="inner cover">
+            <h1 class="cover-heading">Those who surrender freedom for security will not have, nor do they deserve, either one.</h1>
+            <p class="lead">My name is Nick Davis. I am a software engineer and conputer security enthusiast.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+            </p>
+          </div>
 
-    <div id="myCarousel" class="carousel slide">
-    	<ol class="carousel-indicators">
-    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    		<li data-target="#myCarousel" data-slide-to="1" class></li>
-    		<li data-target="#myCarousel" data-slide-to="2" class></li>
-    		<li data-target="#myCarousel" data-slide-to="3" class></li>
-    		<li data-target="#myCarousel" data-slide-to="4" class></li>
-    	</ol>
-    	<div class="carousel-inner">
-    		<div class="item active" >
-    			<img class="slide pagination-centered" src="assets/EN10.jpg" alt>
-    			<div class="carousel-caption">
-    				<h4>First Photo</h4>
-    			</div>
-    		</div>
-    		<div class="item" >
-    			<img class="slide pagination-centered" src="assets/EN2.jpg" alt>
-    			<div class="carousel-caption">
-    				<h4>Second Photo</h4>
-    			</div>
-    		</div>
-    		<div class="item" >
-    			<img class="slide pagination-centered" src="assets/EE31.jpg" alt>
-    			<div class="carousel-caption">
-    				<h4>Third Photo</h4>
-    			</div>
-    		</div>
-    		<div class="item" >
-    			<img class="slide pagination-centered" src="assets/Speaker.jpg" alt>
-    			<div class="carousel-caption">
-    				<h4>Fourth Photo</h4>
-    			</div>
-    		</div>
-    		<div class="item" >
-    			<img class="slide pagination-centered" src="assets/NYC.jpg" alt>
-    			<div class="carousel-caption">
-    				<h4>Fifth Photo</h4>
-    			</div>
-    		</div>
-    	</div> <!-- carousel-inner -->
-    	<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-    	<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-    
-    </div><!-- myCarousel -->
-	
-	<!-- Commented out original banner for site in favor of the carousel above -->
-    <!-- </div><img class="banner" src="assets/SkiTeam.png" alt="Homepage Banner"> -->
+        </div>
 
-    <blockquote class="text-center centeredHead">Those who surrender freedom for security will not have, nor do they deserve, either one. <small><cite title = "Benjamin Franklin">Benjamin Franklin</cite></small></blockquote>
+      </div>
 
-    <h3>News</h3>
-
-    <ul>
-        <li>More to come!</li>
-    </ul>
-    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/TuftsECE" data-widget-id="298224771164946432">Tweets by @TuftsECE</a>
-    <script type="text/javascript">
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-    </script>
+    </div>
     <!-- commented out picture of myself to move it to the bio page -->
     <!--<img class="pull-right img-polaroid" src="assets/PersonalPic.jpeg" alt="Nick Davis">-->
     <script src="http://code.jquery.com/jquery.js" type="text/javascript">
     </script>
-    <script src="assets/bootstrap.min.js" type="text/javascript">
-    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>
